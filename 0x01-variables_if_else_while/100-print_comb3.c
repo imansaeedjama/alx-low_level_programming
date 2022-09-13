@@ -11,7 +11,7 @@ int main(void)
 {
 	int n1 = 0, n2;
 
-	while(n <= 9)
+	while(n2 <= 9)
 	{
 		if(n1 != n2 && n1 < n2)
 		{
@@ -24,9 +24,9 @@ int main(void)
 				putchar(' ');
 			}
 		}
-		++n2
+		++n2;
 	}
-	++n1
+	++n1;
 		putchar('\n');
 	return (0);
 }
