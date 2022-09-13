@@ -11,7 +11,7 @@ int main(void)
 {
 	int n1 = 0, n2;
 
-	while (n1 <= 9)
+	while (n2 <= 9)
 	{
 		n2 = 0;
 		while (n2 <= 9)
@@ -29,8 +29,8 @@ int main(void)
 			}
 			++n2;
 		}
+		++n1;
 	}
-	++n1;
 	putchar('\n');
 	return (0);
 }
